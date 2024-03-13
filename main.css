@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;;
+}
+
+body {
+    background-color: #e7e7e7;/*Trocar cor do fundo*/ 
+    padding-top: 100px;/*espaçamento */
+}
+/*cabesalho */
+header {
+    display: flex; /*deixar os elementos um au lado do outro*/
+    align-items: center; /*para ficar no sentro na vertical*/
+    margin-bottom: 40px;
+}
+/*tamando da imagem*/
+header img {
+    height: 36px;
+    margin-right: 16px;
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {/*centralizar na orizoltal todo o conteudo */
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;/*para alinha butao e formulario*/
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;/*colocar espasamento entre os items*/ 
+    margin-bottom: 56px;/*margems dos botoes*/
+}
+
+form input {/*estilizar formulario */
+    font-size: 24px;/*tamanha da fonte*/
+    background-color: #fff;/*cor do fundo do formulario*/
+    border: none;/*tirar bordas*/
+    border-bottom: 2px solid #000; /*adicionar borda solida com cor preta*/
+    padding: 8px;/*adicionar espaçamento dos elementos */
+}
+
+form button {/*estilizar butao */
+    background-color: #009432;/*cor du butao*/
+    color: #fff;/*cor daletra*/
+    font-size: 24px;/*tamanha da fonte*/
+    font-weight: bold;/*colocar em negrito*/
+    border: none;/*tirar bordas do butao */
+    cursor: pointer;/*modificar cursor*/
+    padding: 8px;/*adicionar espaçamento dos elementos */
+}
+
+table {
+    width: 100%; /*distribuir a tabela */
+
+}
+
+table th {/*estilizar cabeçalho */
+    border-bottom: 2px solid #000; /*adicionar borda solida com cor preta*/
+    padding: 16px;/*adicionar espaçamento dos elementos */
+    font-size: 24px;/*tamanha da fonte*/
+    font-weight: bold;/*colocar em negrito*/
+}
+
+table td {
+    padding: 16px 0;/*separar ou espandir os items da borda*/
+    text-align: center;/*alinha item da tabelo com os titulos dela */
+    font-size: 18px;/*tamanha da fonte*/
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);/*colocar linha para separar conteudo da tabela */
+}
+
+table td img {
+    height: 30px;/*estilizar tamanho da imagem dentro da tabela*/
+}
+
+.resultado {/*estilizar  aprovado */
+    padding: 8px;/*separar ou espandir os items da borda*/
+    font-weight: bold;/*colocar em negrito*/
+    color: #fff;/*cor da letra */
+    background-color: #000;/*cor do fundo */
+    border-radius: 3px;/*borda */
+}
+
+.aprovado {
+    background-color: #009432;
+
+}
+
+.reprovado {
+    background-color: red;
+}
